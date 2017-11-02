@@ -1,0 +1,36 @@
+{
+  "name": "fastify-ioredis",
+  "version": "0.1.0",
+  "description": "Ioredis for Fastify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastify/fastify-redis.git"
+  },
+  "keywords": [
+    "fastify",
+    "ioredis",
+    "redis",
+    "database",
+    "speed",
+    "cache"
+  ],
+  "author": "wotermelon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wotermelon/fastify-ioredis/issues"
+  },
+  "homepage": "https://github.com/wotermelon/fastify-ioredis#readme",
+  "devDependencies": {
+    "fastify": "^0.30.2",
+    "standard": "^10.0.3",
+    "tap": "^10.7.2"
+  },
+  "dependencies": {
+    "fastify-plugin": "^0.1.1",
+    "ioredis": "^3.2.1"
+  }
+}

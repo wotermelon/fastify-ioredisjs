@@ -6,7 +6,7 @@ Ioredis for Fastify.
 
 ## Install
 ```
-npm i fastify-ioredis --save
+npm i fastify-ioredisjs --save
 ```
 ## Usage
 Add it to you project with `register` and you are done!
@@ -16,7 +16,7 @@ More usage see [Ioredis](https://github.com/luin/ioredis)
 ```js
 const fastify = require('fastify')
 
-fastify.register(require('fastify-ioredis'), {
+fastify.register(require('fastify-ioredisjs'), {
   host: '127.0.0.1'
 }, err => {
   if (err) throw err

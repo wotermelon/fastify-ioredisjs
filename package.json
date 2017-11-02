@@ -1,6 +1,6 @@
 {
-  "name": "fastify-ioredis",
-  "version": "0.1.0",
+  "name": "fastify-ioredisjs",
+  "version": "1.0.0",
   "description": "Ioredis for Fastify.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fastify/fastify-redis.git"
+    "url": "git+https://github.com/wotermelon/fastify-ioredisjs.git"
   },
   "keywords": [
     "fastify",
@@ -21,9 +21,9 @@
   "author": "wotermelon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wotermelon/fastify-ioredis/issues"
+    "url": "https://github.com/wotermelon/fastify-ioredisjs/issues"
   },
-  "homepage": "https://github.com/wotermelon/fastify-ioredis#readme",
+  "homepage": "https://github.com/wotermelon/fastify-ioredisjs#readme",
   "devDependencies": {
     "fastify": "^0.30.2",
     "standard": "^10.0.3",
